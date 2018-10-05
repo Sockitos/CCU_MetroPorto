@@ -6,7 +6,7 @@ body{
   position: absolute;
   width: 8vw;
   height: 100%;
-  background-color: #bcbcbc;
+  background-color: #1C1C1C;
 }
 
 #student-box-picture{
@@ -20,15 +20,17 @@ body{
   bottom: 0;
   left: 0;
   border-radius: 5%;
+  background-size:cover;
 }
 
 #student-box{
   position: absolute;
   width: 23vw;
-  height: 10vw;
+  height: 8vw;
   background-color: #111111;
-  left: 13vw;
+  left: 12vw;
   border-radius: 5%;
+  overflow: hidden;
 }
 
 .student-name{
@@ -74,6 +76,7 @@ body{
   margin-left: 1.5vw;
   transition: all 0.5s ease;
   background-size:cover;
+  filter: grayscale(100%);
 }
 
 .profile-image:hover{
