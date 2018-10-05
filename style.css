@@ -1,0 +1,89 @@
+body{
+  background-color: #e6e6e6;
+}
+
+#student-box-picture-wrapper{
+  position: absolute;
+  width: 8vw;
+  height: 100%;
+  background-color: #bcbcbc;
+}
+
+#student-box-picture{
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  background-color: white;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5%;
+}
+
+#student-box{
+  position: absolute;
+  width: 23vw;
+  height: 10vw;
+  background-color: #111111;
+  left: 13vw;
+  border-radius: 5%;
+}
+
+.student-name{
+  display: block;
+}
+
+#page-content{
+  position: absolute;
+  left: 12vw;
+}
+
+#lateral-bar{
+  position: fixed;
+  left: 0;
+  width: 9vw; /* js 9vw to 11vw animation */
+  height: 100vh;
+  background-color: #111111;
+  top: 0;
+  transition: all 0.5s ease;
+}
+
+#group-info-box{
+  position: absolute;
+  bottom: 2vh;
+  margin: 0 auto;
+  width: 9vw;
+}
+
+.group-info{
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 1vw;
+  color: white;
+  font-family: 'Bai Jamjuree';
+}
+
+.profile-image{
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 1vw;
+  margin-left: 1.5vw;
+  transition: all 0.5s ease;
+  background-size:cover;
+}
+
+.profile-image:hover{
+  width: 8vw;
+  height: 8vw;
+}
+
+#ist-logo{
+  position: fixed;
+  bottom: 1.5vw;
+  width: 1.5vw;
+  right: 1.5vw;
+}
