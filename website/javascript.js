@@ -15,6 +15,10 @@ $( document ).ready(function() {
     $("#student-box").show();
 
     $("#student-box-picture").css("background-image", "url("+image_url+")");
+
+    $("#box-name").html($(this).data("name"));
+    $("#box-number").html($(this).data("number"));
+    $("#box-role").html($(this).data("role"));
   });
 
   $(".profile-image").mouseleave(function(){
@@ -24,4 +28,13 @@ $( document ).ready(function() {
     $(this).css("filter", "grayscale(100%)");
     $("#student-box").hide();
   });
+
+  $(".assignment-image").mouseenter(function(){
+    $(this).css("filter", "grayscale(0%)");
+  });
+
+  $(".assignment-image").mouseleave(function(){
+    $(this).css("filter", "grayscale(100%)");
+  })
+
 });

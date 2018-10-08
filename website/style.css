@@ -1,5 +1,58 @@
 body{
   background-color: #e6e6e6;
+  overflow-y: scroll;
+}
+
+.assignment-image{
+  width: 8vw;
+  left: 6vw;
+  position: absolute;
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.assignment-name{
+  color: white;
+  font-family: 'Comfortaa';
+  font-size: 1vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2vw;
+  width: 100%;
+  height: 2vw;
+  background-color: #1C1C1C;
+  margin-top: 0;
+}
+
+.assignment-box{
+  position: relative;
+  overflow: hidden;
+  width: 20vw;
+  height: 12vw;
+  background-color: red;
+  margin-right: 3vw;
+  margin-top: 3vw;
+  display: inline-block;
+  border-radius: 3%;
+  background-image: url("img/texture.jpg");
+  background-size:contain;
+}
+
+.student-box-info{
+  color: white;
+  font-family: 'Comfortaa';
+  font-size: 1vw;
+  line-height: 0.5vw;
+  text-align: left;
+}
+
+#student-box-content{
+  position: absolute;
+  left: 8vw;
+  height: 100%;
+  width: 15vw;
+  padding: 1vw;
 }
 
 #student-box-picture-wrapper{
@@ -25,7 +78,7 @@ body{
 
 #student-box{
   position: absolute;
-  width: 23vw;
+  width: 21vw;
   height: 8vw;
   background-color: #111111;
   left: 12vw;
@@ -39,7 +92,8 @@ body{
 
 #page-content{
   position: absolute;
-  left: 12vw;
+  left: 23vw;
+  max-width: 80vw;
 }
 
 #lateral-bar{
@@ -64,7 +118,8 @@ body{
   text-align: center;
   line-height: 1vw;
   color: white;
-  font-family: 'Bai Jamjuree';
+  font-family: 'Exo';
+  font-weight: black;
 }
 
 .profile-image{

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo:black" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.3.1.min.js"></script>
     <script src="javascript.js"></script>
@@ -10,21 +14,27 @@
 
   <body>
     <div id="page-content">
-      <p class="student-name">João Miguel Fernandes Pina, 85080, Designer</p>
-      <p class="student-name">João Raimundo Nogueira, 83488, Project Manager</p>
-      <p class="student-name">José Manuel Teles Pinto, 83494, Back-End</p>
-      <p class="student-name">Miguel Hugo Fernandes Regouga, 83530, User Research</p>
-      <p class="student-name">Rodrigo Domingues Oliveira, 83558, Front-End</p>
+
+      <div class="assignment-box">
+        <p class="assignment-name">BUSINESS MODEL</p>
+        <a href="https://app.conceptboard.com/board/a3cg-ymro-78sf-occu-xkm6" target="_blank"><img class="assignment-image" src="img/conceptboard.png"></p></a>
+      </div>
+
+      <div class="assignment-box">
+        <p class="assignment-name">VALUE PROPOSITION</p>
+        <a href="https://app.conceptboard.com/board/yku5-9q9e-5h4e-7x7n-yudy" target="_blank"><img class="assignment-image" src="img/conceptboard.png"></p></a>
+      </div>
+
     </div>
 
     <div id="lateral-bar">
-      <div class="profile-image" id="image-joaopina-0" style="background-image: url('img/joaopina.jpg');"></div>
-      <div class="profile-image" id="image-joaonogueira-1" style="background-image: url('img/joaonogueira.jpg');"></div>
-      <div class="profile-image" id="image-manel-2" style="background-image: url('img/manel.jpg');"></div>
-      <div class="profile-image" id="image-regouga-3" style="background-image: url('img/regouga.jpg');"></div>
-      <div class="profile-image" id="image-rodrigo-4" style="background-image: url('img/rodrigo.jpg');"></div>
+      <div data-name="João Pina" data-number="85080" data-role="Designer" class="profile-image" id="image-joaopina-0" style="background-image: url('img/joaopina.jpg');"></div>
+      <div data-name="João Nogueira" data-number="83488" data-role="Project Manager" class="profile-image" id="image-joaonogueira-1" style="background-image: url('img/joaonogueira.jpg');"></div>
+      <div data-name="José Manuel" data-number="83494" data-role="Back-End Dev" class="profile-image" id="image-manel-2" style="background-image: url('img/manel.jpg');"></div>
+      <div data-name="Miguel Regouga" data-number="83530" data-role="User Research" class="profile-image" id="image-regouga-3" style="background-image: url('img/regouga.jpg');"></div>
+      <div data-name="Rodrigo Oliveira" data-number="83558" data-role="Front-End Dev" class="profile-image" id="image-rodrigo-4" style="background-image: url('img/rodrigo.jpg');"></div>
       <div id="group-info-box">
-        <h1 class="group-info">CCU</h1>
+        <h1 class="group-info" style="font-size: 2.5vw;">CCU</h1>
         <h2 class="group-info">Group 10</h2>
       </div>
     </div>
@@ -34,9 +44,14 @@
         <div id="student-box-picture">
         </div>
       </div>
+      <div id="student-box-content">
+        <p class="student-box-info" id="box-name"></p>
+        <p class="student-box-info" id="box-number"></p>
+        <p class="student-box-info" id="box-role"></p>
+      </div>
     </div>
 
-    <img id="ist-logo" src="img/ist.png"/>
+    <a target="_blank" href="https://tecnico.ulisboa.pt/"><img id="ist-logo" src="img/ist.png"/></a>
   </body>
 
 </html>
