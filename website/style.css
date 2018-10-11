@@ -3,6 +3,39 @@ body{
   overflow-y: scroll;
 }
 
+.img_gallery{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  padding: 2vw;
+  border-radius: 1%;
+  top: 15vh;
+}
+
+.close_gallery{
+  cursor: pointer;
+  position: absolute;
+  top:0.3vw;
+  right: 0.5vw;
+  color: white;
+  font-family: 'Exo';
+  font-size: 1.5vw;
+}
+
+
+
+#black-box{
+  display: none;
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(1,1,1,0.9);
+  z-index: 9;
+}
+
 .assignment-image{
   width: 8vw;
   left: 6vw;

@@ -1,5 +1,15 @@
 $( document ).ready(function() {
 
+  $("#business_model_img").click(function(){
+    $("#business_model_img_gallery").show();
+    $("#black-box").fadeIn( 250 );
+  });
+
+  $("#close_business_model_gallery").click(function(){
+    $("#business_model_img_gallery").hide();
+    $("#black-box").fadeOut( 250 );
+  });
+
   $(".profile-image").mouseenter(function(){
     $("#lateral-bar").css("width", "11vw");
     $(this).css("filter", "grayscale(0%)");
