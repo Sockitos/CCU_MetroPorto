@@ -155,6 +155,19 @@ body{
   font-weight: black;
 }
 
+.persona-image{
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  transition: all 0.5s ease;
+  background-size:cover;
+  filter: grayscale(100%);
+  display: inline-block;
+}
+
 .profile-image{
   width: 6vw;
   height: 6vw;
