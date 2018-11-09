@@ -164,8 +164,13 @@ body{
   margin-right: 1vw;
   transition: all 0.5s ease;
   background-size:cover;
-  filter: grayscale(100%);
   display: inline-block;
+  filter: grayscale(100%);
+}
+
+.persona-image:hover{
+  filter: grayscale(0);
+  cursor: pointer;
 }
 
 .profile-image{

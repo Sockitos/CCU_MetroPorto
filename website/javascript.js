@@ -10,6 +10,18 @@ $( document ).ready(function() {
     $("#black-box").fadeOut( 250 );
   });
 
+  $(".persona-image").click(function(){
+    image_url = "img/personas/"+$(this).data("name")+"_site.png";
+    $("#persona_img_gallery_bg").attr("src", image_url);
+    $("#persona_img_gallery").show();
+    $("#black-box").fadeIn( 250 );
+  });
+
+  $("#close_persona_gallery").click(function(){
+    $("#persona_img_gallery").hide();
+    $("#black-box").fadeOut( 250 );
+  });
+
   $(".profile-image").mouseenter(function(){
     $("#lateral-bar").css("width", "11vw");
     $(this).css("filter", "grayscale(0%)");
