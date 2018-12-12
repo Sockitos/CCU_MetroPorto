@@ -27,7 +27,7 @@ $( document ).ready(function() {
     $(this).css("filter", "grayscale(0%)");
 
     current_profile = this.id.split('-')[1];
-    student_box_pos = 1 + parseInt(this.id.split('-')[2])*(7);
+    student_box_pos = 1 + parseInt(this.id.split('-')[2])*(7) + ($(document).scrollTop() / document.documentElement.clientWidth *100);
 
     image_url = "img/"+current_profile+".jpg"
 
