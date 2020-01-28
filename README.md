@@ -5,6 +5,6 @@ PocketMetro is a two-part solution for the Metro do Porto problem: a mobile app 
 
 * **João Pina** 
 * **João Nogueira**
-* **José Manuel** 
+* **José Pinto** 
 * **Miguel Regouga**
 * **Rodrigo Oliveira** 
